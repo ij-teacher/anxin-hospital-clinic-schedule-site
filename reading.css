@@ -3,3 +3,8 @@
 .numbered-questions{padding-left:1.7em;margin:14px 0 24px}.numbered-questions li{padding-left:.25em;margin:12px 0}.numbered-questions li::marker{font-weight:700}
 
 .sentence-examples{background:#fff;border:1px solid #d7e5df;border-radius:12px;padding:18px;margin:28px 0 36px}.sentence-examples h3{margin-top:0}.sentence-examples ul{padding-left:1.3em;margin:0}.sentence-examples li{padding-left:.2em;margin:10px 0}.scenario-instruction{margin:36px 0 20px;padding:18px 20px;background:#fff0d9;border-left:5px solid #b9583a;border-radius:0 10px 10px 0}.scenario-instruction h3{color:#893b24;margin:0 0 8px}.scenario-instruction p{margin:0;font-weight:700}
+
+/* Keep each patient-task answer prompt on a separate row. */
+.mission-answer{display:grid;grid-template-columns:fit-content(65%) minmax(0,1fr);align-items:baseline;gap:.5em;margin:14px 0;min-height:1.85em}
+.mission-answer .answer-label{min-width:0}
+.mission-answer .answer-blank{display:block;min-width:0;min-height:1.25em;border-bottom:1px solid currentColor}
